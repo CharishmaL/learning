@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68623" started-at="2022-12-08T10:39:13Z" finished-at="2022-12-08T10:40:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68623" started-at="2022-12-08T10:39:13Z" finished-at="2022-12-08T10:40:21Z">
+      <class name="ddtNopCom.NOPCommLoginTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:ddtNopCom.NOPCommLoginTest@737996a0]" name="launchApp" is-config="true" duration-ms="22062" started-at="2022-12-08T02:39:13Z" finished-at="2022-12-08T02:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="verifyLoginWithInValidUser(java.lang.String, java.lang.String)[pri:0, instance:ddtNopCom.NOPCommLoginTest@737996a0]" name="verifyLoginWithInValidUser" duration-ms="10383" started-at="2022-12-08T02:39:35Z" data-provider="regressionData" finished-at="2022-12-08T02:39:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abiramiRegsssion@google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUser -->
+        <test-method status="PASS" signature="verifyLoginWithInValidUser(java.lang.String, java.lang.String)[pri:0, instance:ddtNopCom.NOPCommLoginTest@737996a0]" name="verifyLoginWithInValidUser" duration-ms="10302" started-at="2022-12-08T02:39:45Z" data-provider="regressionData" finished-at="2022-12-08T02:39:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KritikaRegsssion@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUser -->
+        <test-method status="PASS" signature="verifyLoginWithInValidUser(java.lang.String, java.lang.String)[pri:0, instance:ddtNopCom.NOPCommLoginTest@737996a0]" name="verifyLoginWithInValidUser" duration-ms="10347" started-at="2022-12-08T02:39:55Z" data-provider="regressionData" finished-at="2022-12-08T02:40:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PriyankaRegsssion@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUser -->
+        <test-method status="PASS" signature="verifyLoginWithInValidUser(java.lang.String, java.lang.String)[pri:0, instance:ddtNopCom.NOPCommLoginTest@737996a0]" name="verifyLoginWithInValidUser" duration-ms="10319" started-at="2022-12-08T02:40:06Z" data-provider="regressionData" finished-at="2022-12-08T02:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sidRegsssion@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUser -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:ddtNopCom.NOPCommLoginTest@737996a0]" name="closeApp" is-config="true" duration-ms="5183" started-at="2022-12-08T02:40:16Z" finished-at="2022-12-08T02:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- ddtNopCom.NOPCommLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
